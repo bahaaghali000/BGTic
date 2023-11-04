@@ -1,0 +1,61 @@
+.choose{
+    margin-top: 50px;
+    z-index: 9;
+    
+}
+
+.choose-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.choose-card{
+    padding-top: 30px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose-card > h2{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.choose-turn{
+    display: flex;
+    gap: 80px;
+}
+.choose-turn .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.choose-turn .card > h4{
+    text-transform: uppercase;    
+}
+.choose-turn span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid var(--bg-color);
+    cursor: pointer;
+}
+
+.choose-turn span.active-turn{
+    background-color: var(--card-color);
+}
+
+.choose .btn {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.x, .o{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
