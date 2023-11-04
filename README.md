@@ -17,7 +17,7 @@ A simple Tic Tac Toe game built with React, Vite, TypeScript, and CSS. You can p
 </ul>
 
 <h2>Demo</h2>
-You can try out the game here: <a href="">BGTic Demo</a>
+You can try out the game here: <a href="https://bgtic-bahaaghali000.vercel.app/">BGTic Demo</a>
 
 <h2>Game Modes</h2>
 The Tic Tac Toe game offers two game modes:
